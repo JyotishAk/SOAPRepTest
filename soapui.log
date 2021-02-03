@@ -1,0 +1,37 @@
+2021-02-03 10:44:32,159 WARN  [SoapUI] Missing folder [C:\Laptop Data\Project\Training SDET\SoapTest\my-app\ext] for external libraries
+2021-02-03 10:44:32,459 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\AlapatiKoteswaraJyot\soapui-settings.xml]
+2021-02-03 10:44:33,996 INFO  [WsdlProject] Loaded project from [file:/C:/Laptop%20Data/Project/Training%20SDET/SoapTest/my-app/salesOrderRepositoryV1-soapui-project.xml]
+2021-02-03 10:44:34,646 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [salesOrderRepositoryV1]
+2021-02-03 10:44:34,647 INFO  [SoapUITestCaseRunner] Running Project [salesOrderRepositoryV1], runType = SEQUENTIAL
+2021-02-03 10:44:34,673 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2021-02-03 10:44:34,685 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-02-03 10:44:34,736 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2021-02-03 10:44:34,968 INFO  [SoapUITestCaseRunner] running step [SaveDeta]
+2021-02-03 10:44:36,456 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-03 10:44:36,457 INFO  [SoapUITestCaseRunner] running step [TesGetLis]
+2021-02-03 10:45:24,685 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-03 10:45:24,686 INFO  [SoapUITestCaseRunner] running step [Property Transfer 1]
+2021-02-03 10:45:24,701 INFO  [SoapUITestCaseRunner] running step [tes1GetByID]
+2021-02-03 10:45:25,594 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-03 10:45:25,596 INFO  [SoapUITestCaseRunner] running step [Tes1CancelOrder]
+2021-02-03 10:45:26,401 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-03 10:45:26,405 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 51689ms, status: FINISHED
+2021-02-03 10:45:26,405 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyExpansion]
+2021-02-03 10:45:26,406 INFO  [SoapUITestCaseRunner] running step [expProperties]
+2021-02-03 10:45:26,407 INFO  [SoapUITestCaseRunner] running step [expProperty Transfer]
+2021-02-03 10:45:26,410 ERROR [SoapUITestCaseRunner] expProperty Transfer failed, exporting to [C:\Laptop Data\Project\Training SDET\SoapTest\my-app\target/surefire-reports\Functional_Testing-PropertyExpansion-expProperty_Transfer-0-FAILED.txt]
+2021-02-03 10:45:26,443 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyExpansion], time taken: 1ms, status: FAILED
+2021-02-03 10:45:26,450 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Groovy Scripting]
+2021-02-03 10:45:26,452 INFO  [SoapUITestCaseRunner] running step [groovySave]
+2021-02-03 10:45:28,420 INFO  [log] The product id is SKU00001
+2021-02-03 10:45:28,507 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-03 10:45:28,511 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-02-03 10:45:28,515 INFO  [SoapUITestCaseRunner] running step [GroovyGetList]
+2021-02-03 10:46:15,944 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-03 10:46:15,945 INFO  [SoapUITestCaseRunner] running step [GroovyGetByID]
+2021-02-03 10:46:16,665 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status FAILED
+2021-02-03 10:46:16,666 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> error: Unexpected element: CDATA
+2021-02-03 10:46:16,667 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Unexpected element: CDATA
+2021-02-03 10:46:16,667 ERROR [SoapUITestCaseRunner] GroovyGetByID failed, exporting to [C:\Laptop Data\Project\Training SDET\SoapTest\my-app\target/surefire-reports\Functional_Testing-Groovy_Scripting-GroovyGetByID-0-FAILED.txt]
+2021-02-03 10:46:16,671 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Groovy Scripting], time taken: 50190ms, status: FAILED
+2021-02-03 10:46:16,673 INFO  [SoapUITestCaseRunner] Project [salesOrderRepositoryV1] finished with status [FAILED] in 102019ms

@@ -1,0 +1,15 @@
+Status: FAILED
+Time Taken: 1
+Size: 0
+Timestamp: Wed Feb 03 10:45:26 ICT 2021
+TestStep: expProperty Transfer
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: Missing source property
+
+----------------- Messages ------------------------------
+Error performing transfer [sku] - Missing source property
+----------------------------------------------------
+sku transferred [[Missing source property]] from [Properties.sku] to [SaveDeta.Request]
+------------ target path -------------
+declare namespace soap='http://www.w3.org/2003/05/soap-envelope';
+declare namespace ns1='http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1';
+//*:sku
